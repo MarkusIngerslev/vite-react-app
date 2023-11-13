@@ -1,8 +1,8 @@
 export default function Header(props) {
     return (
       <header>
-        <p>Hej {props.name}!</p>
-        <ul style={{listStyleType: "none", marginLeft: "0px"}}>
+        <h2>Hej {props.name}!</h2>
+        <ul style={{listStyleType: "none", marginRight: "40px"}}>
           <li>Brugernavn: {props.userName}</li>
           <li>Email: {props.email}</li>
           <li>Age: {props.age}</li>
